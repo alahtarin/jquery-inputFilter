@@ -17,9 +17,13 @@ To enable plugin for a set of inputs:
 ### Configuration
 The only parameter is the filter type, which tells what symbols should be allowed.
 You can pass it like a parameter:
+
 	$("[name='email']").inputFilter('email');
+    
 Or like a hash (better for future compatibility):
+
 	$("[name='email']").inputFilter({ type: 'email' });
+    
     
 #### Available filter types:
 - **all** - accept all symbols. Applied by default if no type specified;
